@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body style="font-family: Arial, sans-serif; padding: 20px;">
+    <h2>Verifica tu correo electrónico</h2>
+    <p>Hola {{ user.first_name }},</p>
+    <p>Gracias por registrarte. Por favor, haz clic en el siguiente enlace para verificar tu correo electrónico:</p>
+    <p style="text-align: center; margin: 30px 0;">
+        <a href="{{ verify_url }}" style="background-color: #4CAF50; color: white; padding: 14px 25px; text-decoration: none; border-radius: 4px; display: inline-block;">
+            Verificar Email
+        </a>
+    </p>
+    <p>O copia y pega este enlace en tu navegador:</p>
+    <p style="word-break: break-all; color: #1a73e8;">{{ verify_url }}</p>
+    <p>Si no creaste una cuenta, ignora este mensaje.</p>
+</body>
+</html>

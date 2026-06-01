@@ -1,0 +1,136 @@
+.checkin-page {
+  max-width: 800px;
+}
+
+.checkin-page > .btn-secondary {
+  margin-bottom: var(--spacing-md);
+}
+
+.checkin-header {
+  margin-bottom: var(--spacing-lg);
+}
+
+.checkin-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.checkin-subtitle {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.checkin-qr-section {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.checkin-qr-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+.checkin-qr-row {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.checkin-qr-row .input {
+  flex: 1;
+}
+
+.checkin-message {
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-md);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.checkin-message-success {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: var(--color-success);
+}
+
+.checkin-message-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: var(--color-danger);
+}
+
+.checkin-search-section {
+  margin-bottom: var(--spacing-md);
+}
+
+.checkin-search-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.checkin-guest-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.checkin-guest-card {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s;
+}
+
+.checkin-guest-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.checkin-guest-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.checkin-guest-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.checkin-guest-email {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+.checkin-guest-status {
+  flex-shrink: 0;
+}
+
+.checkin-btn {
+  flex-shrink: 0;
+}
+
+.checkin-error {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--color-danger);
+}
+
+.checkin-empty {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--color-text-secondary);
+}
