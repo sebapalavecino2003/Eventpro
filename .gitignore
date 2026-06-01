@@ -20,6 +20,9 @@ dist/
 # VSCode
 .vscode/
 
+# opencode agents
+.opencode/
+
 # Test / Coverage
 .coverage
 coverage/
